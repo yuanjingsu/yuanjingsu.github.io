@@ -12,12 +12,10 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - run: python3 ./scripts/ungiscus.py
       - run: python3 ./scripts/giscus.py
       - run: mkdocs build
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-      - run: python3 ./scripts/ungiscus.py
     permissions: write-all

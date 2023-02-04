@@ -14,7 +14,8 @@ mess='''
     data-loading="lazy"
     crossorigin="anonymous"
     async>
-</script>'''
+</script>
+'''
 import re,os
 BASE_DIR_DOCS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),'docs')
 print("[Look at]",BASE_DIR_DOCS)

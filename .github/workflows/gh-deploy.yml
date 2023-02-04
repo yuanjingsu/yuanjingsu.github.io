@@ -17,8 +17,11 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material
       - run: mkdocs build
+      - run: python3 ./scripts/ungiscus.py
+      - run: python3 ./scripts/giscus.py
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+      - run: python3 ./scripts/ungiscus.py
     permissions: write-all

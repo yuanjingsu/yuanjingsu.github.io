@@ -24,7 +24,13 @@ for a,b,c in os.walk(BASE_DIR_DOCS):
     for i in c:
         if i[-3:]=='.md' and i!="home-page.md":
             dq=str(os.path.join(a,i))
-            print("[Found out]",dq)
-            with open(dq,'a+') as fp:
-                fp.write(mess)
+            print("[Found out]",dq,end="")
+            fp=open(dq,'r',encoding="utf-8")
+            if mess in fp.read():
+                print("All right.")
+            else:
+                fp.close()
+                print("No add.")
+                with open(dq,'a+') as fp:
+                    fp.write(mess)
 print("OK..")

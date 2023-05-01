@@ -7,6 +7,8 @@ copyright: "Copyright © 2019 - 2023 Lzh's Blog 许可协议:CC BY-SA 4.0"
 nav:
   - index.md
   - "2023":
+    - "05":
+      - 2023/05/1.md
     - "04":
       - 2023/04/7.md
       - 2023/04/6.md

@@ -2,11 +2,13 @@ site_name: Lzh's Blog
 site_url: null
 site_description: Lzh's Blog
 site_author: lzh
-copyright: "Copyright © 2019 - 2023 Lzh's Blog 许可协议:CC BY-SA 4.0"
+copyright: "Copyright © 2019 - 2023 Lzh's Blog 许可协议: CC BY-NC-ND 4.0"
 
 nav:
   - index.md
   - "2023":
+    - "06":
+      - 2023/06/1.md
     - "05":
       - 2023/05/2.md
       - 2023/05/1.md
@@ -35,7 +37,7 @@ nav:
 extra:
   disqus: 'someting'
   generator: false
-  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+  copyright: '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
   pagetime: 'on'
   social:
     - icon: fontawesome/brands/github

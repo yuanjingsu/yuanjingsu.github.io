@@ -7,6 +7,8 @@ copyright: "Copyright © 2019 - 2023 Lzh's Blog 许可协议: CC BY-NC-ND 4.0"
 nav:
   - index.md
   - "2023":
+    - "12":
+      - 2023/12/1.md
     - "07":
       - 2023/07/1.md
     - "06":
@@ -39,7 +41,7 @@ nav:
 extra:
   disqus: 'someting'
   generator: false
-  copyright: '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+  copyright: '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>'
   pagetime: 'on'
   social:
     - icon: fontawesome/brands/github
@@ -49,7 +51,7 @@ extra:
       link: https://liuzihaohao.github.io
       name: Blog
     - icon: fontawesome/solid/paper-plane
-      link: 2629827923@qq.com
+      link: liuzihao_lzh@hotmail.com
       name: E-mail
 
 features:

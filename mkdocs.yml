@@ -1,58 +1,17 @@
-site_name: Lzh's Blog
+site_name: 
 site_url: null
-site_description: Lzh's Blog
-site_author: lzh
-copyright: "Copyright © 2019 - 2023 Lzh's Blog 许可协议: CC BY-NC-ND 4.0"
+site_description: 
+site_author: 
+copyright: "Copyright © 2019 - 2023 许可协议: CC BY-NC-ND 4.0"
 
 nav:
   - index.md
-  - "2023":
-    - "12":
-      - 2023/12/1.md
-    - "07":
-      - 2023/07/1.md
-    - "06":
-      - 2023/06/1.md
-    - "05":
-      - 2023/05/2.md
-      - 2023/05/1.md
-    - "04":
-      - 2023/04/7.md
-      - 2023/04/6.md
-      - 2023/04/5.md
-      - 2023/04/4.md
-      - 2023/04/3.md
-      - 2023/04/2.md
-      - 2023/04/1.md
-    - "03":
-      - 2023/03/2.md
-      - 2023/03/1.md
-    - "02":
-      - 2023/02/5.md
-      - 2023/02/4.md
-      - 2023/02/3.md
-      - 2023/02/2.md
-      - 2023/02/1.md
-    - "01":
-      - 2023/01/3.md
-      - 2023/01/2.md
-      - 2023/01/1.md
 
 extra:
   disqus: 'someting'
   generator: false
   copyright: '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>'
   pagetime: 'on'
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/liuzihaohao
-      name: Github
-    - icon: fontawesome/brands/slack
-      link: https://liuzihaohao.github.io
-      name: Blog
-    - icon: fontawesome/solid/paper-plane
-      link: liuzihao_lzh@hotmail.com
-      name: E-mail
 
 features:
   - navigation.top
@@ -136,7 +95,4 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.superfences
-
-extra_javascript:
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
 
